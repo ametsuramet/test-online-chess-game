@@ -12,6 +12,27 @@
     -webkit-text-stroke: 0.05em #100205;
   }
 
+  
+  .u-wallet {
+    position: absolute;
+    left: calc(2vw + 80px);
+    bottom: 1vw;
+    width: 5vw;
+    height: 5vw;
+    background-image: url("../../../assets/img/scene_wallet.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:active {
+      width: 4.9vw;
+      height: 4.9vw;
+    }
+  }
+
   .u-back {
     transform: rotate(90deg);
     position: absolute;
